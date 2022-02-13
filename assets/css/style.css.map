@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"style.scss"
+	],
+	"sourcesContent": [
+		"// @import\n//   \"minima/skins/classic\",\n//   \"minima/initialize\";\n\n\n#corporate {\n    header {\n        border-top: 8px solid #0d6efd;\n    }\n}\n\n#portal {\n    padding-bottom: 32px;\n    header {\n        border-top: 8px solid #166b01;\n    }\n    footer {\n        background-color: #fff;\n    }\n}\n\n\n.blank {\n    header p {\n        padding: 8px 0 12px 0;\n        margin: 0 0 0 0;\n        border-bottom: 1px solid rgb(200, 200, 200);\n\n    }\n}\n\n.wm_title {\n    padding: 0 0 16px 0;\n    line-height: 100%;\n    font-weight: bold;\n}\n\n.wm_block {\n    background-color: rgb(230, 230, 230);\n    padding: 16px;\n    margin: 0 0 16px 0;\n}\n\n.wm_height_120 {\n    min-height: 120px;\n}\n.wm_height_240 {\n    min-height: 240px;\n}\n\n.wm_height_480 {\n    min-height: 480px;\n}\n\n.wm_margin_top_8 {\n    margin-top: 8px;\n}\n\n.wm_with_640 {\n    width: 640px;\n}\n\n.wm_with_320 {\n    width: 320px;\n}"
+	],
+	"names": [],
+	"mappings": "AAKA,AACI,UADM,CACN,MAAM,CAAC,EACH,UAAU,EAAE,iBAAiB,GAChC;;AAGL,AAAA,OAAO,CAAC,EACJ,cAAc,EAAE,IAAI,GAOvB;;AARD,AAEI,OAFG,CAEH,MAAM,CAAC,EACH,UAAU,EAAE,iBAAiB,GAChC;;AAJL,AAKI,OALG,CAKH,MAAM,CAAC,EACH,gBAAgB,EAAE,IAAI,GACzB;;AAIL,AACI,MADE,CACF,MAAM,CAAC,CAAC,CAAC,EACL,OAAO,EAAE,YAAY,EACrB,MAAM,EAAE,OAAO,EACf,aAAa,EAAE,GAAG,CAAC,KAAK,CAAC,OAAkB,GAE9C;;AAGL,AAAA,SAAS,CAAC,EACN,OAAO,EAAE,UAAU,EACnB,WAAW,EAAE,IAAI,EACjB,WAAW,EAAE,IAAI,GACpB;;AAED,AAAA,SAAS,CAAC,EACN,gBAAgB,EAAE,OAAkB,EACpC,OAAO,EAAE,IAAI,EACb,MAAM,EAAE,UAAU,GACrB;;AAED,AAAA,cAAc,CAAC,EACX,UAAU,EAAE,KAAK,GACpB;;AACD,AAAA,cAAc,CAAC,EACX,UAAU,EAAE,KAAK,GACpB;;AAED,AAAA,cAAc,CAAC,EACX,UAAU,EAAE,KAAK,GACpB;;AAED,AAAA,gBAAgB,CAAC,EACb,UAAU,EAAE,GAAG,GAClB;;AAED,AAAA,YAAY,CAAC,EACT,KAAK,EAAE,KAAK,GACf;;AAED,AAAA,YAAY,CAAC,EACT,KAAK,EAAE,KAAK,GACf"
+}

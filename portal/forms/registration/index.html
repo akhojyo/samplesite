@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="email=no,telephone=no,address=no">
+  <title>会員登録</title>
+  <meta name="description" content="ポータル">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+  <script type="text/javascript" src="/assets/js/bootstrap.js"></script>
+  <link rel="icon" href="/assets/favicon.ico">
+</head>
+
+<body id="portal" class="blank">
+
+<header>
+<p class="text-center">会員登録</p>  
+</header>
+
+  <main>
+    <div class="container">
+      <div class="container wm_with_640 mt-3">
+
+  <form>
+
+    <h4>個人情報</h4>
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label fw-bold">ログインID</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" placeholder="メールアドレス" />
+        <div class="form-text">メルアドを登録</div>
+      </div>
+    </div>
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label fw-bold">パスワード</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" />
+        <div class="form-text text-danger">入力不備に場合のエラー表示はここ</div>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label fw-bold">氏名</label>
+      <div class="col-sm-5"><input type="text" class="form-control" /></div>
+      <div class="col-sm-5"><input type="text" class="form-control" /></div>
+    </div>
+
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label fw-bold">フリガナ</label>
+      <div class="col-sm-5"><input type="text" class="form-control" /></div>
+      <div class="col-sm-5"><input type="text" class="form-control" /></div>
+    </div>
+
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label">性別</label>
+      <div class="col-sm-4">
+        <select id="inputState" class="form-select">
+          <option selected="">性別を選択</option>
+          <option>男性</option>
+          <option>女性</option>
+          <option>未回答</option>
+        </select>
+      </div>
+      <label class="col-sm-2 col-form-label">生まれた年</label>
+      <div class="col-sm-4">
+        <select id="inputState" class="form-select">
+          <option selected="">西暦を選択</option>
+          <option>1903年</option>
+          <option>1904年</option>
+          <option>1905年</option>
+          <option>....</option>
+          <option>1999年</option>
+          <option>2000年</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label">郵便番号</label>
+      <div class="col-sm-4">
+        <input type="text" class="form-control" />
+        <div id="emailHelp" class="form-text">郵便番号からの住所を表示</div>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label">電話番号</label>
+      <div class="col-sm-4">
+        <input type="text" class="form-control" />
+      </div>
+    </div>
+
+
+    <h4>企業情報</h4>
+
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label fw-bold">法人名</label>
+      <div class="col-sm-10">
+        <input type="test" class="form-control" />
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label fw-bold">事業所名</label>
+      <div class="col-sm-10">
+        <input type="test" class="form-control" />
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label fw-bold">サービス種別</label>
+      <div class="col-sm-10">
+        <select id="inputState" class="form-select">
+          <option selected="">種別を選択</option>
+          <option>訪問介護</option>
+          <option>訪問入浴介護</option>
+          <option>訪問看護</option>
+          <option>訪問リハビリテーション</option>
+          <option>通所介護</option>
+          <option>通所リハビリテーション</option>
+          <option>福祉用具貸与</option>
+          <option>短期入所生活介護</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label fw-bold">役職</label>
+      <div class="col-sm-4">
+        <select id="inputState" class="form-select">
+          <option selected="">役職を選択</option>
+          <option>経営者</option>
+          <option>病院長</option>
+          <option>病院副院長・部長</option>
+          <option>病院理事長・理事</option>
+          <option>事務長</option>
+          <option>施設長・園長・ホーム長</option>
+          <option>サービス提供責任者</option>
+          <option>システム管理者</option>
+          <option>専門職</option>
+          <option>その他</option>
+        </select>
+      </div>
+      <label class="col-sm-2 col-form-label fw-bold">職種</label>
+      <div class="col-sm-4">
+        <select id="inputState" class="form-select">
+          <option selected="">職種を選択</option>
+          <option>職種1</option>
+          <option>職種2</option>
+          <option>職種3</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label">郵便番号</label>
+      <div class="col-md-3">
+        <input type="text" class="form-control" />
+      </div>
+    </div>
+
+
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label">住所</label>
+
+      <div class="col-md-4">
+        <select id="inputState" class="form-select">
+          <option selected="">都道府県を選択</option>
+          <option>北海道</option>
+          <option>青森県</option>
+          <option>秋田県</option>
+          <option>...</option>
+          <option>沖縄県</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="市区町村" />
+      </div>
+    </div>
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label"></label>
+      <div class="col-md-10">
+        <input type="text" class="form-control" />
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label">電話番号</label>
+      <div class="col-sm-4">
+        <input type="text" class="form-control" />
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label class="col-sm-2 col-form-label">利用規約</label>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" />
+          <label class="form-check-label" for="gridCheck1">利用規約に同意</label>
+        </div>
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">登録内容を確認</button>
+  </form>
+
+</div>
+
+    </div>
+  </main>
+
+<footer>
+  <p class="text-center"><a class="nav-link" href="/">indexに戻る</a></p>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+#corporate header { border-top: 8px solid #0d6efd; }
+
+#portal { padding-bottom: 32px; }
+
+#portal header { border-top: 8px solid #166b01; }
+
+#portal footer { background-color: #fff; }
+
+.blank header p { padding: 8px 0 12px 0; margin: 0 0 0 0; border-bottom: 1px solid #c8c8c8; }
+
+.wm_title { padding: 0 0 16px 0; line-height: 100%; font-weight: bold; }
+
+.wm_block { background-color: #e6e6e6; padding: 16px; margin: 0 0 16px 0; }
+
+.wm_height_120 { min-height: 120px; }
+
+.wm_height_240 { min-height: 240px; }
+
+.wm_height_480 { min-height: 480px; }
+
+.wm_margin_top_8 { margin-top: 8px; }
+
+.wm_with_640 { width: 640px; }
+
+.wm_with_320 { width: 320px; }
+
+/*# sourceMappingURL=style.css.map */
